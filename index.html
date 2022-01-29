@@ -11,17 +11,18 @@
 	<section class="s1">
 		<div class="main-container">
 			<div class="greeting-wrapper">
-				<h1>Hi, I'm Antal Krisztián</h1>
+				<h1 class="greetings">Hi, I'm Antal Krisztián</h1>
 			</div>
 			<div class="intro-wrapper">
 				<div class="nav-wrapper">
-						<div class="dots-wrapper">
-							<div id="dot-1" class="browser-dot"></div>
-							<div id="dot-2" class="browser-dot"></div>
-							<div id="dot-3" class="browser-dot"></div>
-						</div>
+					<div class="lang-wrapper">
+						<ul id="navigation">
+							<li><a href="#" language='english' class="active lang">ENG</a></li>
+							<li><a href="#" language='hungarian' class="lang">HU</a></li>
+						</ul>
+					</div>
 					<ul id="navigation">
-						<li><a href="mailto:antalkrisztian0@gmail.com" target="_blank" title="Email">Contact Me</a></li>
+						<li><a href="mailto:antalkrisztian0@gmail.com" target="_blank" title="Email" ><p class="contact-me">Contact Me</p></a></li>
 					</ul>
 				</div>
 				<div class="left-column">
@@ -43,22 +44,22 @@
 							<span class="fa fa-instagram" style="padding-left: 10px;"></span>
 						</a>
 					</div>
-					<h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
+					<h5 class="theme-pers" style="text-align: center;line-height: 0;" >Personalize Theme</h5>
 					<div id="theme-options-wrapper">
 						<div data-mode="light" id="light-mode" class="theme-dot"></div>
 						<div data-mode="blue" id="blue-mode" class="theme-dot"></div>
 						<div data-mode="green" id="green-mode" class="theme-dot"></div>
 						<div data-mode="purple" id="purple-mode" class="theme-dot"></div>
 					</div>
-					<p id="settings-note">*Theme settings will be saved for<br>your next vist</p>
+					<p class="theme-msg" id="settings-note">*Theme settings will be saved for your next visit</p>
 				</div>
 				<div class="right-column">
 					<div id="preview-shadow">
 						<div id="preview">
 							<div id="corner-tl" class="corner"></div>
 							<div id="corner-tr" class="corner"></div>
-							<h3>What I Do</h3>
-							<p>I develop my own websites and I hope that this will be my job in the future.</p>
+							<h3 class="info-header">What I Do</h3>
+							<p class="info-msg">I develop my own websites and I hope that this will be my job in the future.</p>
 							<div id="corner-br" class="corner"></div>
 							<div id="corner-bl" class="corner"></div>
 						</div>
@@ -72,22 +73,22 @@
 		<div class="main-container">
 			<div class="about-wrapper">
 				<div class="about-me">
-					<h4>More about me</h4>
+					<h4 class="about-me-title">More about me</h4>
 					<hr>
-					<p>I am a simple, creative, enthusiastic and fun-loving person. I always like to create something on my own which is helpful for others.</p>
-					<p>I love structure, order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and much more. As the saying goes: 'two heads are better than one'.</p>
+					<p class="about-me-one">I am a simple, creative, enthusiastic and fun-loving person. I always like to create something on my own which is helpful for others.</p>
+					<p class="about-me-two">I love structure, order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and much more. As the saying goes: 'two heads are better than one'.</p>
 				</div>
 				<div class="about-me">
-					<h4>Education</h4>
+					<h4 class="education">Education</h4>
 					<hr>
-					<p>2015-2021: Computer Science in University of Szeged</p>
-					<p>2020-2021: Udemy Courses <br>(Angular, JS, Sass, etc...)</p>
-					<p>2020-2021: Skillshare Courses</p>
+					<p class="university">2015-Ongoing: Computer Science in University of Szeged</p>
+					<p>2020-2021: Udemy<br>(Angular, JS, Sass, etc...)</p>
+					<p>2020-2021: Skillshare</p>
 				</div>
 				<div class="about-me">
-					<h4>TOP EXPERTISE</h4>
+					<h4 class="expertise">Expertise</h4>
 					<hr>
-					<p>Web developer with primary focus on Angular + JS:</p>
+					<p class="js-ang">Web developer with primary focus on Angular + JS:</p>
 					<div id="skills">
 						<ul>
 							<li>HTML</li>
@@ -106,16 +107,16 @@
 
 	<section class="s1">
 		<div class="main-container">
-			<h3 style="text-align: center;">Some of my own <a href="https://github.com/akr007?tab=repositories" style="text-transform: uppercase;" target="_blank">projects</a></h3>
+			<h3 class="project-title" style="text-align: center;">Some of my own <a href="https://github.com/akr007?tab=repositories" class="project-link" style="text-transform: uppercase;" target="_blank">projects</a></h3>
 			<div class="post-wrapper">
 				<div>
 					<div class="post">
 						<img class="thumbnail" src="images/labsolver.png" alt="Labsolver">
 						<div class="post-preview">
-							<h6 class="post-title">Labyrinth Solver Game</h6>
-							<p class="post-intro">Generate n x m labyrinth and solve it with an algorithm, that gives back the correct route from start to finish. Made with <strong>JS</strong>.</p>
+							<h6 class="post-title labsolver">Labyrinth Solver Game</h6>
+							<p class="post-intro labsolver-info">Generate n x m labyrinth and solve it with an algorithm, that gives back the correct route from start to finish. Made with <strong>JS</strong>.</p>
 							<a href="https://labalghsolver.netlify.app" style="float: left;" target="_blank">Demo</a>
-							<a href="https://github.com/akr007/labsolver" style="float: right;" target="_blank">Source</a>
+							<a class="source-link" href="https://github.com/akr007/labsolver" style="float: right;" target="_blank">Source</a>
 							<div style="clear: both;"></div>
 						</div>
 					</div>
@@ -124,10 +125,10 @@
 					<div class="post">
 						<img class="thumbnail" src="" alt="FlappyBird">
 						<div class="post-preview">
-							<h6 class="post-title">FlappyBird</h6>
-							<p class="post-intro">Flappybird game made with <strong>JS</strong>.</p>
+							<h6 class="post-title flappybird">FlappyBird</h6>
+							<p class="post-intro flappybird-info">Flappybird game made with <strong>JS</strong>.</p>
 							<a href="" style="float: left;" target="_blank">Demo</a>
-							<a href="https://github.com/akr007/flappybirdjs" style="float: right;" target="_blank">Source</a>
+							<a class="source-link" href="https://github.com/akr007/flappybirdjs" style="float: right;" target="_blank">Source</a>
 							<div style="clear: both;"></div>
 						</div>
 					</div>
@@ -136,10 +137,10 @@
 					<div class="post">
 						<img class="thumbnail" src="" alt="Tetris">
 						<div class="post-preview">
-							<h6 class="post-title">Tetris</h6>
-							<p class="post-intro">Tetris made with <strong>JS</strong>.</p>
+							<h6 class="post-title tetris">Tetris</h6>
+							<p class="post-intro tetris-info">Tetris made with <strong>JS</strong>.</p>
 							<a href="" style="float: left;" target="_blank">Demo</a>
-							<a href="https://github.com/akr007/tetris" style="float: right;" target="_blank">Source</a>
+							<a class="source-link" href="https://github.com/akr007/tetris" style="float: right;" target="_blank">Source</a>
 							<div style="clear: both;"></div>
 						</div>
 					</div>
@@ -148,10 +149,10 @@
 					<div class="post">
 						<img class="thumbnail" src="images/ioutrelaxer.png" alt="Relaxer">
 						<div class="post-preview">
-							<h6 class="post-title">BreatheIO</h6>
-							<p class="post-intro">A simple application that helps you manage your breathing if you are frustrated or angry. Made with <strong>JS</strong>.</p>
+							<h6 class="post-title breathe">BreatheIO</h6>
+							<p class="post-intro breathe-info">A simple application that helps you manage your breathing if you are frustrated or angry. Made with <strong>JS</strong>.</p>
 							<a href="https://inoutrelaxer.netlify.app" style="float: left;" target="_blank">Demo</a>
-							<a href="https://github.com/akr007/relaxer" style="float: right;" target="_blank">Source</a>
+							<a class="source-link" href="https://github.com/akr007/relaxer" style="float: right;" target="_blank">Source</a>
 							<div style="clear: both;"></div>
 						</div>
 					</div>
@@ -163,7 +164,7 @@
 							<h6 class="post-title">Dynamic Landing Page</h6>
 							<p class="post-intro">A landing page that shows the current time. Changes the background and texts based on the time. Made with <strong>JS</strong>.</p>
 							<a href="https://dynamictimeapp.netlify.app" style="float: left;" target="_blank">Demo</a>
-							<a href="https://github.com/akr007/dynamiclandingapp" style="float: right;" target="_blank">Source</a>
+							<a class="source-link" href="https://github.com/akr007/dynamiclandingapp" style="float: right;" target="_blank">Source</a>
 							<div style="clear: both;"></div>
 						</div>
 					</div>
@@ -174,7 +175,7 @@
 						<div class="post-preview">
 							<h6 class="post-title">Movie Application</h6>
 							<p class="post-intro">Browse the latest movies, tv shows and find out more about popular actors. Made with <strong>Laravel</strong>.</p>
-							<a href="https://github.com/akr007/movieapp" style="float: right;" target="_blank">Source</a>
+							<a class="source-link" href="https://github.com/akr007/movieapp" style="float: right;" target="_blank">Source</a>
 							<div style="clear: both;"></div>
 						</div>
 					</div>
@@ -186,7 +187,7 @@
 							<h6 class="post-title">Old Personal Website</h6>
 							<p class="post-intro">My outdated, old personal website. Made with <strong>JS</strong>.</p>
 							<a href="https://findkrsz.netlify.app" style="float: left;" target="_blank">Demo</a>
-							<a href="https://github.com/akr007/findkrsztn_new" style="float: right;" target="_blank">Source</a>
+							<a class="source-link" href="https://github.com/akr007/findkrsztn_new" style="float: right;" target="_blank">Source</a>
 							<div style="clear: both;"></div>
 						</div>
 					</div>
@@ -198,7 +199,7 @@
 							<h6 class="post-title">Calculator</h6>
 							<p class="post-intro">Basic calculator. Made with <strong>JS</strong>.</p>
 							<a href="https://jskalk.netlify.app" style="float: left;" target="_blank">Demo</a>
-							<a href="https://github.com/akr007/jscalculator" style="float: right;" target="_blank">Source</a>
+							<a class="source-link" href="https://github.com/akr007/jscalculator" style="float: right;" target="_blank">Source</a>
 							<div style="clear: both;"></div>
 						</div>
 					</div>
@@ -209,7 +210,7 @@
 						<div class="post-preview">
 							<h6 class="post-title">Job Lister</h6>
 							<p class="post-intro"></p>
-							<a href="https://github.com/akr007/phpjoblister" style="float: right;" target="_blank">Source</a>
+							<a class="source-link" href="https://github.com/akr007/phpjoblister" style="float: right;" target="_blank">Source</a>
 							<div style="clear: both;"></div>
 						</div>
 					</div>
@@ -220,7 +221,7 @@
 						<div class="post-preview">
 							<h6 class="post-title">Mobil Shop</h6>
 							<p class="post-intro"></p>
-							<a href="https://github.com/akr007/mobilshop" style="float: right;" target="_blank">Source</a>
+							<a  class="source-link" href="https://github.com/akr007/mobilshop" style="float: right;" target="_blank">Source</a>
 							<div style="clear: both;"></div>
 						</div>
 					</div>
@@ -231,7 +232,7 @@
 						<div class="post-preview">
 							<h6 class="post-title">Recipe Book</h6>
 							<p class="post-intro"></p>
-							<a href="https://github.com/akr007/recipebook" style="float: right;" target="_blank">Source</a>
+							<a class="source-link" href="https://github.com/akr007/recipebook" style="float: right;" target="_blank">Source</a>
 							<div style="clear: both;"></div>
 						</div>
 					</div>
@@ -243,7 +244,7 @@
 							<h6 class="post-title">Book List</h6>
 							<p class="post-intro"></p>
 							<a href="https://simplebooks.netlify.app" style="float: left;" target="_blank">Demo</a>
-							<a href="https://github.com/akr007/mybookapp" style="float: right;" target="_blank">Source</a>
+							<a class="source-link" href="https://github.com/akr007/mybookapp" style="float: right;" target="_blank">Source</a>
 							<div style="clear: both;"></div>
 						</div>
 					</div>
@@ -254,7 +255,7 @@
 						<div class="post-preview">
 							<h6 class="post-title">Numbers Fact</h6>
 							<p class="post-intro">Enter a random number and get a fact about that number.</p>
-							<a href="https://github.com/akr007/numbersfact" style="float: right;" target="_blank">Source</a>
+							<a class="source-link" href="https://github.com/akr007/numbersfact" style="float: right;" target="_blank">Source</a>
 							<div style="clear: both;"></div>
 						</div>
 					</div>
@@ -266,7 +267,7 @@
 							<h6 class="post-title">Tap Music</h6>
 							<p class="post-intro">Make music with your mouse by tapping. Made with <strong>JS</strong>.</p>
 							<a href="https://tapformusic.netlify.app" style="float: left;" target="_blank">Demo</a>
-							<a href="https://github.com/akr007/tapmusic" style="float: right;" target="_blank">Source</a>
+							<a class="source-link" href="https://github.com/akr007/tapmusic" style="float: right;" target="_blank">Source</a>
 							<div style="clear: both;"></div>
 						</div>
 					</div>
@@ -275,7 +276,25 @@
 		</div>
 	</section>
 
+	<section class="s2">
+		<div class="main-container">
+			<div class="about-wrapper">
+				<div class="about-me">
+					<h4>TODOs</h4>
+					<hr>
+					<p>HU/EN toggle</p>
+					<p>New prof pic</p>
+					<p>Projects fix</p>
+					<p>flappy bird and tetris built in games</p>
+					<p>loading screen</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="lang.js"></script>
+	<script type="text/javascript" src="db.js"></script>
 	<script src="https://kit.fontawesome.com/bbd9ac80db.js" crossorigin="anonymous"></script>
 </body>
 </html>
